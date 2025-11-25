@@ -1,0 +1,115 @@
+@import url('https://fonts.googleapis.com/css2?family=Elms+Sans:ital,wght@0,100..900;1,100..900&family=Handlee&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Elms+Sans:ital,wght@0,100..900;1,100..900&family=Handlee&family=Pacifico&display=swap');
+
+.titan-one-regular {
+  font-family: "Titan One", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+.pacifico-regular {
+  font-family: "Pacifico", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
+
+
+:root{
+    base-color: #fff;
+    text-color: #000;
+    primary-color: #ffc06e;
+    secondary-color: #8D8DFF;
+    color-1: #F1E9D2;
+    color-2: #F5F5DC;
+    color-3: #F6F3F9
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    font-family: "Elms Sans", Verdana, sans-serif;
+    color: var(text-color)
+}
+
+body{
+    padding: 1em;
+    background-color: var(base-color);
+}
+
+h1, h2, h3{
+    font-family: "Titan One", Poppins, 'Segoe UI', Tahoma, Verdana, sans-serif;
+    color: #4A4B2F;
+}
+
+nav{
+    margin: 1em auto 3em auto;
+    width: min(1000px,100%);
+}
+ nav ul{
+    display: flex;
+    align-items: center;
+    list-style-type: none;
+    gap: 2em;
+ }
+
+ nav li:first-child{
+    margin-right: auto;
+    font-family: "Titan One", Poppins, 'Segoe UI', Tahoma, Verdana, sans-serif;
+    font-weight: bold;
+}
+
+nav a {
+    text-decoration: none;
+    color: var(text-color)
+}
+nav a:hover {
+    text-decoration: underline;
+}
+header, section {
+    margin: 2em auto;
+    width: min(75em, 100%);
+    background-color: var(color-1);
+    padding: min(2em, 15%);
+    border-radius: 1em;
+}
+
+table {
+    margin-right: auto;
+    margin-left: auto;
+    background-color: #FAF0DC;
+    border-spacing: 25px;
+}
+
+p{
+    text-align: left;
+    
+}
+body{
+    background-color: #E8DCB5;
+}
+
+li{
+    text-indent: 0.5cm;
+}
+.special-cell{
+    background-color: #FAFAF3;
+    text-align: center;
+    font-size: 15pt;
+    color: #2E2F1C;
+}
+td{
+    padding: 15px;
+}
+.special-cell2{
+    background-color: #FAFAF3;
+}
+
+h1{
+    font-size: 45pt;
+    font-family: "Pacifico", Verdana, Geneva, Tahoma, sans-serif;
+}
+.special-cell3{
+    background-color: #FAFAF3;
+}
